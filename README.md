@@ -71,17 +71,22 @@ Como ejemplo práctico:
    2. Calcular la suma (getSuma())
    3. Verifica que la suma es la misma accediendo en los 3 tipos de recorridos posibles.
    4. Verifica que la suma es la misma cuando se suman los elementos de los subárboles izquierdo y derecho. ¿Por qué?
-   5. ¿Cuál es la altura del árbol?
-   6. ¿Cuál es el camino para llegar al valor 110? ¿Cuál es su longitud de camino?
+  La suma será la misma porque el árbol almacena los nodos, por lo que la suma total será la suma del subárbol izquierdo más la suma del subárbol derecho. 
+   5. ¿Cuál es la altura del árbol? Como los elementos se insertan en orden, la altura es 128.
+   6. ¿Cuál es el camino para llegar al valor 110? ¿Cuál es su longitud de camino? El camino es: 0,1,...,110. La longitud del camino es de 110. 
 4. Crea un segundo programa de prueba.
    1. Añade los números de 0 a 128 PERO DE MANERA ALEATORIA y sin repetir.
    2. Calcula la suma (getSuma())
    3. Verifica que la suma es la misma accediendo en los 3 tipos de recorridos posibles.
-   4. Verifica que la suma es la misma cuando se suman los elementos de los subárboles izquierdo y derecho. ¿Por qué?
-   5. ¿Cuál es la altura del árbol? ¿por qué? 
-   6. ¿Cuál es el camino para llegar al valor 110? ¿Cuál es su longitud de camino?
+   4. Verifica que la suma es la misma cuando se suman los elementos de los subárboles izquierdo y derecho. ¿Por qué? Ocurre lo mismo por la misma razón.
+   5. ¿Cuál es la altura del árbol? ¿por qué? Dependerá del orden aleatorio. 
+   6. ¿Cuál es el camino para llegar al valor 110? ¿Cuál es su longitud de camino? Dependerá del orden aleatorio otra vez. 
 
-* Explique las diferencias (si las ha habido) de los resultados obtenidos entre los dos programas de prueba.
+* Explique las diferencias (si las ha habido) de los resultados obtenidos entre los dos programas de prueba. Las diferencias son:
+  1. En el programa 1 la altura será 128, y en el programa 2 dependerá del orden aleatorio.
+  2. El camino también cambia dependiendo del orden aleatorio.
+  3. La eficiencia y la forma de ambos programas será distinta.
 * ¿Qué sucede con los resultados si ejecuta los programas de prueba varias veces?
+En el programa 1, no cambia. En el programa 2 puede variar la altura y la longitud de los caminos.
 
 
