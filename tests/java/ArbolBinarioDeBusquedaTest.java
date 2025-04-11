@@ -65,10 +65,6 @@ class ArbolBinarioDeBusquedaTest {
     }
 
     @org.junit.jupiter.api.Test
-    void getAlturaRecursiva() {
-    }
-
-    @org.junit.jupiter.api.Test
     void getListaOrdenCentral() {
         arbol.add(10, "A");
         arbol.add(5, "B");
@@ -77,9 +73,6 @@ class ArbolBinarioDeBusquedaTest {
         assertEquals(esperada, arbol.getListaOrdenCentral());
     }
 
-    @org.junit.jupiter.api.Test
-    void getListaOrdenCentralRecursiva() {
-    }
 
     @org.junit.jupiter.api.Test
     void getListaPreOrden() {
@@ -90,9 +83,6 @@ class ArbolBinarioDeBusquedaTest {
         assertEquals(esperada, arbol.getListaPreOrden());
     }
 
-    @org.junit.jupiter.api.Test
-    void getListaPreOrdenRecursiva() {
-    }
 
     @org.junit.jupiter.api.Test
     void getListaPostOrden() {
@@ -103,9 +93,6 @@ class ArbolBinarioDeBusquedaTest {
         assertEquals(esperada, arbol.getListaPostOrden());
     }
 
-    @org.junit.jupiter.api.Test
-    void getListaPostOrdenRecursiva() {
-    }
 
     @org.junit.jupiter.api.Test
     void getListaDatosNivel() {
@@ -118,9 +105,6 @@ class ArbolBinarioDeBusquedaTest {
         assertEquals(nivel1, arbol.getListaDatosNivel(1));
     }
 
-    @org.junit.jupiter.api.Test
-    void getListaDatosNivelRecursiva() {
-    }
 
     @org.junit.jupiter.api.Test
     void getGrado() {
@@ -129,10 +113,6 @@ class ArbolBinarioDeBusquedaTest {
         arbol.add(5, "B");
         arbol.add(15, "C");
         assertEquals(2, arbol.getGrado());
-    }
-
-    @org.junit.jupiter.api.Test
-    void getGradoRecursivo() {
     }
 
     @org.junit.jupiter.api.Test
@@ -149,9 +129,6 @@ class ArbolBinarioDeBusquedaTest {
         assertFalse(arbol.isArbolHomogeneo());
     }
 
-    @org.junit.jupiter.api.Test
-    void isArbolHomogeneoRecursivo() {
-    }
 
     @org.junit.jupiter.api.Test
     void isArbolCompleto() {
@@ -165,9 +142,6 @@ class ArbolBinarioDeBusquedaTest {
         assertFalse(arbol.isArbolCompleto());
     }
 
-    @org.junit.jupiter.api.Test
-    void isArbolCompletoRecursivo() {
-    }
 
     @org.junit.jupiter.api.Test
     void isArbolCasiCompleto() {
@@ -178,9 +152,6 @@ class ArbolBinarioDeBusquedaTest {
         assertFalse(arbol.isArbolCasiCompleto());
     }
 
-    @org.junit.jupiter.api.Test
-    void isArbolCasiCompletoRecursivo() {
-    }
 
     @org.junit.jupiter.api.Test
     void getCamino() {
@@ -195,9 +166,6 @@ class ArbolBinarioDeBusquedaTest {
         assertTrue(noEncontrado.contains(10));
     }
 
-    @org.junit.jupiter.api.Test
-    void getCaminoRecursivo() {
-    }
 
     @org.junit.jupiter.api.Test
     void getSubArbolIzquierda() {

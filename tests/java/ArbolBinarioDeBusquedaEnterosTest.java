@@ -28,9 +28,6 @@ class ArbolBinarioDeBusquedaEnterosTest {
         assertEquals(0, arbol.getSuma());
     }
 
-    @Test
-    void getSumaRecursiva() {
-    }
 
     @Test
     void getSubArbolIzquierdaDerecha() {
