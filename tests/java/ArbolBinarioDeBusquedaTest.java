@@ -16,7 +16,6 @@ class ArbolBinarioDeBusquedaTest {
         assertTrue(arbol.addNodoRaiz(10, "A"));
         assertEquals(10, arbol.getRaiz().getClave());
     }
-
     @org.junit.jupiter.api.Test
     void addOtrosNodos() {
         arbol.add(10, "A");

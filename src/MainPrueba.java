@@ -12,6 +12,7 @@ public class MainPrueba {
             valores.add("Valor" + i);
         }
 
+
         arbol.insertarBalanceado(claves, valores, 0, claves.size() - 1);
         int sumaTotal = arbol.getSuma();
         System.out.println("Suma total de los elementos: " + sumaTotal);

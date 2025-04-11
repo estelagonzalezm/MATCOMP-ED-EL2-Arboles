@@ -28,6 +28,7 @@ public class MainPrueba2 {
             System.out.println("Las sumas no son iguales.");
         }
 
+
         ArbolBinarioDeBusquedaEnteros subArbolIzquierdo = arbol.getSubArbolIzquierda();
         ArbolBinarioDeBusquedaEnteros subArbolDerecho = arbol.getSubArbolDerecha();
 

@@ -3,7 +3,6 @@ public class NodoABB<k extends Comparable<k>, v> implements Comparable<NodoABB<k
     v valor;
     NodoABB<k, v> menor;
     NodoABB<k, v> mayor;
-
     NodoABB(k clave, v valor) {
         this.clave = clave;
         this.valor = valor;

@@ -4,6 +4,7 @@ public class ArbolBinarioDeBusquedaEnteros<k,v> extends ArbolBinarioDeBusqueda<I
     public void insertarBalanceado(List<Integer> claves, List<String> valores, int inicio, int fin) {
         if (inicio > fin) {
             return;
+
         }
         int medio = (inicio + fin) / 2;
         add(claves.get(medio), valores.get(medio));

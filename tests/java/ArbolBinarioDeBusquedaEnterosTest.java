@@ -15,7 +15,6 @@ class ArbolBinarioDeBusquedaEnterosTest {
         List<String> valores = Arrays.asList("a", "b", "c", "d", "e", "f", "g");
 
         arbol.insertarBalanceado(claves, valores, 0, claves.size() - 1);
-
         int sumaEsperada = claves.stream().mapToInt(Integer::intValue).sum();
         assertEquals(sumaEsperada, arbol.getSuma());
 
